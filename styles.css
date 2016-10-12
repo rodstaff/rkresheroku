@@ -8,7 +8,9 @@ body {
 }
 h1 {
   font-family: Helvetica, Arial, sans-serif;
+  text-decoration: none;
   text-align: center;
+  color: #111;
   padding: 0;
 }
 h2 {
@@ -22,10 +24,11 @@ h3 {
   font-weight: normal;
   text-decoration: underline;
 }
-h4 {
+h4, img {
   font-family: Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 22px;
+  padding-left: 25px;
 }
 h4, h5, p, ul, li {
   font-family: Helvetica, Arial, sans-serif;
@@ -56,5 +59,6 @@ ul.header li a {
   background-color: #FFF;
 }
 .active {
+ /*background-color: #0099FF;*/
  background-color: #FFD700;
 }
