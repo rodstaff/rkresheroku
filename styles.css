@@ -18,11 +18,20 @@ h2 {
   font-weight: bold;
   font-size: 22px;
 }
-h3 {
+h3 d {
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-weight: normal;
-  text-decoration: underline;
+}
+h3.noSpace {
+  line-height: 0px;
+  padding-top: 10px;
+}
+p.noSpace {
+  line-height: 0px;
+}
+p.someSpace {
+  padding-top: 1px;
 }
 h4, img {
   font-family: Helvetica, Arial, sans-serif;
